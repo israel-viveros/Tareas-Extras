@@ -1,0 +1,601 @@
+@media screen {
+    .tabla_estadistica_mundial_fase1{
+        display: none;
+    }
+    .tabla_estadistica_mundial_fase1 strong{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*Estilos DropBox*/
+    .tabla_estadistica_mundial_fase1 .filterResultado {
+        width: 100%;
+        position: relative;
+        height: auto;
+        margin-bottom: 7px;
+    }
+    .tabla_estadistica_mundial_fase1 .lineaResultado {
+        border-bottom: 1px solid #CCC;
+        border-top: #CCC 1px solid;
+        clear: both;
+        display: inline-block;
+        height: 31px;
+        position: relative;
+        width: 45%;
+    }
+    .tabla_estadistica_mundial_fase1 .result1{
+       margin-right: 58px; 
+    }
+    .tabla_estadistica_mundial_fase1 .filter {
+        width: 40%;
+        position: relative;
+        float: right;
+        height: 32px;
+        margin-top: -2px;
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #E1E1E1;
+        cursor: pointer;
+    }
+    .tabla_estadistica_mundial_fase1 .result2{
+        width: 27%;
+    }
+    .tabla_estadistica_mundial_fase1 .result2 .wdg_videoteca_012_dropdowncontent{
+        width: 272%;
+        height: 33px;
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_dropdowncontent {
+        background-color: #E1E1E1;
+        clear: both;
+        cursor: pointer;
+        height: 100%;
+        width: 131%;
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_dropdowncontent > p {
+        float: left;
+        padding-left: 22px;
+        padding-top: 6px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .tabla_estadistica_mundial_fase1 .pleca_inferior .tvsa-caret-down,
+    .tabla_estadistica_mundial_fase1 .filter .tvsa-caret-down {
+        color: #010101 !important;
+        float: right;
+        padding-right: 15px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_listcontainer {
+        clear: both;
+        height: 30px;
+    }
+    .tabla_estadistica_mundial_fase1 a {
+        text-decoration: none;
+		color:#000;
+    }
+	.tabla_estadistica_mundial_fase1 a:hover {
+        text-decoration: underline;
+		color:#000;
+    }
+
+    .tabla_estadistica_mundial_fase1 ul {
+        list-style: none;
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_listcontainer ul.list2 {
+        width: 178px
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_listcontainer ul {
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+        width: 166px;   
+    }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_listcontainer ul li {
+        width: 100%;
+        height: 34px;
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+        }
+    .tabla_estadistica_mundial_fase1 .wdg_videoteca_012_listcontainer ul li p {
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .tabla_estadistica_mundial_fase1 .lineaResultado strong {
+        padding: 6px 0 0 5px;
+        float: left;
+    }
+
+    /*Fin Estilos DropBox*/
+    .tabla_estadistica_mundial_fase1 .pleca_superior {
+        width: 100%; 
+        position: relative;
+        margin-bottom: 9px;
+        clear: both;
+        height: 60px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .background-color1 {
+        width: 48%;
+        float: left;
+        height: 31px;
+    }
+  
+    .tabla_estadistica_mundial_fase1 .pleca_superior h3 {
+        font-size: 14px;
+        line-height:31px;
+        padding-left:20px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .background-color1 {
+        background-color: #A70A0B !important;
+    }
+
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_dropdown {
+        background-color: #E1E1E1;
+        border-bottom: 1px solid #B9B9B9;
+        cursor: pointer;
+        float: left;
+        height: 30px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_dropdown .tabla_estadistica_mundial_fase1_dropdowncontent p {
+        color: #232323;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        margin-left: 12px;
+        width: 236px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .dropdwon-right {
+        float: right;
+        margin-left: 0;
+        padding:0;
+        position: relative;
+        width: 32px;
+        z-index: 1000;
+        text-align:center;
+        color:#FFF;
+        line-height:30px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .background-color1 {
+        float: left;
+        height: 30px;
+        width: 100%;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_dropdown .tabla_estadistica_mundial_fase1_dropdowncontent span {
+        float: right;
+        margin-right: 9px;
+        margin-top: 10px;
+    }
+    
+    .sprite.dropdown-white {
+        background-position: -188px -6px;
+        height: 7px;
+        width: 12px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_listcontainer {
+        clear: both;
+        position: absolute;
+        padding-top: 30px;
+        height: 30px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_listcontainer ul {
+        background-color: #F5F5F5;
+        cursor: pointer;
+        position: relative;
+        visibility: hidden;
+        z-index: 1000 !important;
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_listcontainer ul li {
+        background-color: rgba(235, 235, 235, 0.6);
+        border-bottom: 1px solid #D3D3D3;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+        height: 25px;
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+        padding: 0px 0 6px 5px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_listcontainer ul li p {
+        font-style: italic;
+        font-weight: bold;
+        line-height: 34px;
+        margin-left: 20px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .titulo {
+        font-size:18px;
+        border-bottom:#CCC 1px solid;
+        padding-bottom: 8px;
+        padding-left: 46px;
+        font-style:italic;
+    }
+
+    .tabla_estadistica_mundial_fase1 .pleca_inferior {
+        border-bottom: 1px solid #CCCCCC;
+        clear: both;
+        height: 30px;
+        position: relative;
+        width: 100%;
+        margin-bottom:14px;
+        line-height:30px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .pleca_inferior strong {
+        float: left;
+        font-size: 14px;
+        padding: 0 0 0 297px;
+        position: relative;
+        font-weight:bold;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .pleca_inferior  .tabla_estadistica_mundial_fase1_dropdown {
+       
+        float: right;
+        height: 30px;
+        position: relative;
+        width: 34%;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .pleca_inferior .tabla_estadistica_mundial_fase1_dropdown .tabla_estadistica_mundial_fase1_dropdowncontent p {
+        width: 164px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .pleca_inferior .tabla_estadistica_mundial_fase1_listcontainer ul li {
+        width: 213px;
+        height: 34px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation {
+        font-size: 14px;
+        padding: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 605px;
+        text-align: left;
+        /*margin-left: 18px*/
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(4),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(5),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(6),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(7),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(8),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th:nth-child(9) {
+        text-align: center;
+    }
+
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation thead {
+          border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation th {
+        padding: 0 5px;
+        height: 10px;
+        cursor:pointer;
+        font-weight: bold;
+    }
+    
+
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation thead tr:nth-child(2) th i {
+        display:none;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation thead tr:nth-child(2) th.sel i {    
+        display:block; 
+    }
+     
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation td {
+        vertical-align: middle;
+        height:19px;
+        text-align:center;
+        color:#00a9e0;
+        font-size:14px;
+        background:url(../img/dotted-horizontal.png) repeat-x 0 100%;
+        font-weight:bold;
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation .odd:last-of-type td{
+        background: none;
+		padding-bottom:25px;
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation .odd:last-of-type td:last-of-type {
+        /*background: #eaeaea;*/
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation td div {
+        width: 100%;
+        /*height: 25px;*/
+		height:auto;
+        text-align: center;
+        font-weight:bold;
+    }
+
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(1) {
+        color: #232323;
+        width:  50%;
+    }
+
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(2),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(3) {
+        text-align: left;
+        color: #00a9e0;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(3) {
+        width: 67px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(4),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(5),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(6),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(7),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(8),
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation tr td:nth-child(9) {
+        width: 55px;
+        padding: 0;
+        font-size: 14px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOperation td.sel {
+        background: #eaeaea none;
+        box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+    
+/*Esto es el estilo del widget de Estadisticas para el mundial*/
+	
+	.tabla_estadistica_mundial_fase1 #tableDraftOp {
+        font-size: 14px;
+        padding: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 605px;
+        text-align: left;
+        /*margin-left: 18px*/
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(4),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(5),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(6),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(7),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(8),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th:nth-child(9) {
+        text-align: center;
+    }
+
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp thead {
+          border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp th {
+        padding: 0 5px;
+        height: 10px;
+        cursor:pointer;
+        font-weight: bold;
+    }
+    
+
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp thead tr:nth-child(2) th i {
+        display:none;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp thead tr:nth-child(2) th.sel i {    
+        display:block; 
+    }
+     
+    .tabla_estadistica_mundial_fase1 #tableDraftOp td {
+        vertical-align: middle;
+        height:19px;
+        text-align:center;
+        color:#00a9e0;
+        font-size:14px;
+        background:url(../img/dotted-horizontal.png) repeat-x 0 100%;
+        font-weight:bold;
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOp .odd:last-of-type td{
+        background: none;
+		padding-bottom:25px;
+    }
+    .tabla_estadistica_mundial_fase1 #tableDraftOp .odd:last-of-type td:last-of-type {
+        /*background: #eaeaea;*/
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp td div {
+        width: 100%;
+        /*height: 25px;*/
+		height:auto;
+        text-align: center;
+        font-weight:bold;
+    }
+
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(1) {
+        color: #232323;
+        width:  50%;
+    }
+
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(2),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(3) {
+        text-align: left;
+        color: #00a9e0;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(3) {
+        width: 67px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(4),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(5),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(6),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(7),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(8),
+    .tabla_estadistica_mundial_fase1 #tableDraftOp tr td:nth-child(9) {
+        width: 55px;
+        padding: 0;
+        font-size: 14px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 #tableDraftOp td.sel {
+        background: #eaeaea none;
+        box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /*aqui termina el estilo del widget de estadísticas para el mundial*/
+
+
+    .tabla_estadistica_mundial_fase1 div.pleca_inferior .dropdwon-right {
+       color:#000;
+    } 
+    .tabla_estadistica_mundial_fase1 .wdg_scroll_dropdown{
+        margin-bottom: 15px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 td span {
+        font-size:inherit;
+        
+    }
+	.cal_fase2fecha2 {
+		width: 20% !important;
+	}
+	.cal_fase2resultado2 {
+width: 40% !important;
+}
+.cal_fase2video2 {
+width: 10% !important;
+}
+.cal_fase1video1
+{
+	width: 10% !important;
+}
+.cal_fase1resultado1
+{
+width: 35% !important;
+}
+.cal_fase1fecha1
+{
+	width: 20% !important;
+}
+}
+@media screen and (max-width: 623px) {
+    .tabla_estadistica_mundial_fase1 .pleca_inferior {
+        display:none;
+    }
+    .tabla_estadistica_mundial_fase1 table {
+       margin-top:12px;
+    }
+}
+@media screen and (min-width: 624px){
+    .tabla_estadistica_mundial_fase1{
+        display: block;
+        width: 624px;
+        margin-bottom: 3px;
+        overflow:visible;
+    }
+    .tabla_estadistica_mundial_fase1 .navdropdown{
+        width: 10% !important;
+        right: -42px  !important;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .pleca_superior{
+        height:30px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .background-color1 {
+        height: 31px;
+        width: 48%;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_dropdown {
+        width: 322px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 .tabla_estadistica_mundial_fase1_listcontainer ul li {
+        width: 300px;
+    }
+    .tabla_estadistica_mundial_fase1 table{
+        overflow: hidden;
+		margin-bottom: 170px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 table thead .encabezado{
+        height: 21px;
+    }
+    
+    .tabla_estadistica_mundial_fase1 table thead .encabezado .numero{
+        width: 20px;
+    }
+    .tabla_estadistica_mundial_fase1 table thead .encabezado .jugador{
+        width: 199px;
+        padding-left: 14px !important;
+    }
+    /*.tabla_estadistica_mundial_fase1 table tr th:nth-of-type(5),
+    .tabla_estadistica_mundial_fase1 table tr th:nth-of-type(6),
+    .tabla_estadistica_mundial_fase1 table tr th:nth-of-type(7),
+    .tabla_estadistica_mundial_fase1 table tr th:nth-of-type(8),
+    .tabla_estadistica_mundial_fase1 table tr td:nth-of-type(5),
+    .tabla_estadistica_mundial_fase1 table tr td:nth-of-type(6),
+    .tabla_estadistica_mundial_fase1 table tr td:nth-of-type(7),
+    .tabla_estadistica_mundial_fase1 table tr td:nth-of-type(8){
+        display: none;
+    }
+    .tabla_estadistica_mundial_fase1 table tr th:nth-of-type(1),
+    .tabla_estadistica_mundial_fase1 table tr td:nth-of-type(1){
+    }*/
+    .tabla_estadistica_mundial_fase1 table tr .jugador{
+        width: 172px;
+    }
+    .tabla_estadistica_mundial_fase1 table tr .equipo{
+        width: 220px;
+    }
+    .tabla_estadistica_mundial_fase1 table tr .chicos{
+        width: 41px;
+    }
+    /*.tabla_estadistica_mundial_fase1 table tr td:nth-of-type(5){
+        background: #ECECEC;
+        border-bottom: 1px solid #B9B9B9;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+    }*/
+    /*.tabla_estadistica_mundial_fase1 table tbody tr{
+        visibility: hidden;
+    }
+    .tabla_estadistica_mundial_fase1 table tbody tr:nth-of-type(-n+18){
+        visibility: visible;
+    }*/
+    .tabla_estadistica_mundial_fase1 table tbody tr td{
+        border: 0 !important;
+    }
+
+    .tabla_estadistica_mundial_fase1 table tbody tr:nth-of-type(18) td:nth-of-type(9){
+        background: #ECECEC !important;
+        border: 0 !important;
+    }
+}
